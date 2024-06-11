@@ -1,0 +1,48 @@
+.header {
+    background-color: #2B293D;
+}
+
+.header-container {
+    max-width: 100%;
+}
+
+.header-nav-link {
+    border-bottom: 2px solid transparent;
+    /* Set initial border color */
+    transition: color 0.3s, border-color 0.3s;
+    /* Add transition for color and border */
+}
+
+.header-nav-link:hover {
+    color: #FFE047 !important;
+    /* Change text color on hover */
+    border-bottom-color: #FFE047;
+    /* Change border color on hover */
+}
+
+
+/* Custom media queries */
+
+@media (max-width: 990px) {
+    .header-media-1 {
+        justify-content: center;
+        margin-left: 31.5%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 830px) {
+    .header-media-1 {
+        justify-content: center;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media (max-width: 610px) {
+    .header-media-1 {
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 12%;
+    }
+}
